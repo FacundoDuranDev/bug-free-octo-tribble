@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualizador</title>
+</head>
+<body>
+    <h1>Estos son todos los elementos dentro de nuestra base Gestor:</h1>
+    {% for producto in productos %}
+     <ul>{{producto.nombre}}</ul>
+    {% endfor %}
+</body>
+</html>
